@@ -1,0 +1,52 @@
+:root{
+    --opaqueAqua: #c9fcfc ;
+    --softAqua: #00ffff9b;
+    --royalBlue: #4169e1;
+    --bluntDarkBlue: #0d4242;
+}
+
+.opaqueAquaBG{
+    background-color: var(--bluntDarkBlue);
+}
+
+::placeholder{
+    color: var(--softAqua);
+}
+
+#fullCalculator{
+    height: auto;
+    max-width: 500px;
+    background-color: var(--softAqua);
+    box-shadow: 5px 1px 11px 2px var(--royalBlue);
+}
+
+.bgSoftAqua{
+    background-color: var(--softAqua);
+}
+
+.txtColor{
+    color: var(--royalBlue);
+}
+
+.bgBluntDarkBlue{
+    background-color: var(--bluntDarkBlue);
+}
+
+.numberBtn {
+    background-color: var(--softAqua);
+    box-shadow: 0px 1px 11px 2px var(--royalBlue);
+    width: 50px;
+}
+
+.operator{
+    color: var(--softAqua);
+    width: 50px;
+    box-shadow: 0px 1px 11px 2px var(--royalBlue);
+    background-color: var(--bluntDarkBlue);
+}
+
+.clearBtn{
+    background-color: var(--royalBlue);
+    width: 51vh;
+    box-shadow: 5px 1px 11px 2px var(--softAqua);
+}
